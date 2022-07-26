@@ -1,0 +1,29 @@
+GET http://localhost:3000/api/tasks
+
+###
+
+GET http://localhost:3000/api/tasks/40
+
+###
+
+POST http://localhost:3000/api/tasks HTTP/1.1
+Content-Type: application/json
+
+{
+    "tarea": "Nueva tarea",
+    "descripcion": "Descripción nueva tarea"
+}
+
+###
+
+PUT http://localhost:3000/api/tasks/63
+Content-Type: application/json
+
+{
+    "tarea": "Actualización de la tarea 9",
+    "descripcion": "Actualización de la descripción de la tarea 9"
+}
+
+###
+
+DELETE http://localhost:3000/api/tasks/63

@@ -1,0 +1,9 @@
+body {
+    background-color: #f3f3f3;
+}
+
+#message-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
